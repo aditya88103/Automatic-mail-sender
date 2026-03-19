@@ -28,9 +28,9 @@ Your Name
         csv_text=csv_path.read_text(encoding="utf-8-sig"),
         sender_email=sender_email,
         app_password=app_password,
-        subject=subject,
+        subject_template=subject,
         body_template=body_template,
-        log_callback=print,
+        progress_callback=lambda event: print(event.get("message", event)),
     )
 
 

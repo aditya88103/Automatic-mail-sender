@@ -6,6 +6,10 @@ This project now includes a lightweight Flask frontend for sending bulk Gmail me
 - Upload only `email.csv`
 - Enter Gmail account and app password in the UI
 - Write your own subject and message in the UI
+- Preview the first 3 rendered emails before sending
+- Auto-skip invalid and duplicate email addresses
+- Optional resume attachment upload for every email
+- Test mode to send only the first few valid recipients
 - Live terminal-style status logs such as `Sent to: careers@example.com`
 - Placeholder support in the message: `{{name}}`, `{{company}}`, `{{email}}`
 
@@ -41,6 +45,14 @@ python app.py
 ```
 
 Then open `http://127.0.0.1:5000`.
+
+## Built-In Automation
+- Preview mode validates the CSV and shows the first 3 rendered emails.
+- Duplicate email addresses are skipped automatically.
+- Invalid email addresses are skipped automatically.
+- Test mode limits sending to the first `N` valid unique rows.
+- Resume attachment is uploaded once and reused for the current send job only.
+- Live counters show total, queued, sent, failed, invalid, and duplicate counts.
 
 ## Gmail App Password Steps
 1. Open Gmail.
