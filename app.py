@@ -3,12 +3,14 @@ import queue
 import threading
 import uuid
 from dataclasses import dataclass, field
+from pathlib import Path
 
-from flask import Flask, Response, jsonify, render_template, request
+from flask import Flask, Response, jsonify, render_template, request, send_file
 
 from mailer import build_preview, send_bulk_emails
 
 app = Flask(__name__, static_folder="public", static_url_path="")
+SAMPLE_CSV_PATH = Path(app.root_path) / "email.csv"
 
 
 @dataclass
@@ -106,6 +108,11 @@ def run_send_job(job_id: str, payload: dict[str, object]) -> None:
 @app.get("/")
 def index() -> str:
     return render_template("index.html")
+
+
+@app.get("/download/email-format")
+def download_email_format() -> Response:
+    return send_file(SAMPLE_CSV_PATH, as_attachment=True, download_name="email.csv")
 
 
 @app.post("/api/preview")

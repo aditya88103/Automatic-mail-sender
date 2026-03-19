@@ -249,6 +249,38 @@ label small {
     background: rgba(2, 10, 22, 0.55);
 }
 
+.sample-format-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem 1.05rem;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(122, 240, 210, 0.08), rgba(157, 199, 255, 0.06));
+    border: 1px solid rgba(122, 240, 210, 0.16);
+}
+
+.sample-format-copy strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.sample-format-copy p {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+.sample-download {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
 .toggle-card span {
     margin-bottom: 0.75rem;
 }
@@ -644,7 +676,8 @@ textarea {
     }
 
     .inline-grid,
-    .button-row {
+    .button-row,
+    .sample-format-card {
         grid-template-columns: 1fr;
     }
 }
