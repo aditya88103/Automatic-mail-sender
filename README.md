@@ -1,52 +1,74 @@
 # Automatic Mail Sender
 
-Send personalized emails in bulk from a CSV file using Gmail SMTP. The script reads recipient data, fills a simple template, validates email addresses, and sends messages one by one.
+This project now includes a lightweight Flask frontend for sending bulk Gmail messages from a single page. Nothing is stored in a database; the CSV, Gmail address, app password, subject, and message are used in memory for the current send job only.
 
 ## Features
-- Personalized emails using `Name` and `Company`
-- CSV-driven recipient list
-- Simple email validation to skip malformed addresses
-- SMTP over TLS (Gmail)
+- Upload only `email.csv`
+- Enter Gmail account and app password in the UI
+- Write your own subject and message in the UI
+- Preview the first 3 rendered emails before sending
+- Auto-skip invalid and duplicate email addresses
+- Optional resume attachment upload for every email
+- Test mode to send only the first few valid recipients
+- Live terminal-style status logs such as `Sent to: careers@example.com`
+- Placeholder support in the message: `{{name}}`, `{{company}}`, `{{email}}`
 
 ## Requirements
-- Python 3.8+
-- Gmail account with App Password enabled (2-Step Verification required)
-
-## Project Structure
-- `send_mail.py` - main script
-- `emails.csv` - recipient list
+- Python 3.10+
+- Gmail account
+- 2-Step Verification enabled
+- Gmail App Password
 
 ## CSV Format
-The CSV must include these headers:
-- `Name`
+Required:
 - `Email`
-- `Company`
+
+Optional placeholders:
+- `HR_Name` or `Name`
+- `Company_Name` or `Company`
 
 Example:
 ```csv
-Name,Email,Company
+HR_Name,Email,Company_Name
 Priya,priya@example.com,Example Corp
 Rohit,rohit@example.com,DataWorks
 ```
 
-## Setup
-1. Create a Gmail App Password (Google Account > Security > App Passwords).
-2. Open `send_mail.py` and update:
-   - `sender_email`
-   - `app_password`
-3. Update `emails.csv` with your recipients.
-
-## Run
+## Install
 ```powershell
-python send_mail.py
+python -m pip install -r requirements.txt
 ```
 
-## Notes
-- Invalid emails are skipped with a console message.
-- Gmail SMTP: `smtp.gmail.com:587`.
-- For safety, do not commit real app passwords to public repos.
+## Run The Frontend
+```powershell
+python app.py
+```
 
-## Roadmap
-- Load `sender_email` and `app_password` from environment variables
-- Add attachment support
-- Add HTML templates
+Then open `http://127.0.0.1:5000`.
+
+## Built-In Automation
+- Preview mode validates the CSV and shows the first 3 rendered emails.
+- Duplicate email addresses are skipped automatically.
+- Invalid email addresses are skipped automatically.
+- Test mode limits sending to the first `N` valid unique rows.
+- Resume attachment is uploaded once and reused for the current send job only.
+- Live counters show total, queued, sent, failed, invalid, and duplicate counts.
+
+## Gmail App Password Steps
+1. Open Gmail.
+2. Click your profile photo.
+3. Click `Manage your Google Account`.
+4. Open `Security`.
+5. Enable `2-Step Verification` if it is not already enabled.
+6. Search for `App Passwords`.
+7. Generate a 16-character app password and paste it into the frontend.
+
+## Optional CLI Mode
+You can still send from the terminal with:
+
+```powershell
+$env:SENDER_EMAIL="yourname@gmail.com"
+$env:APP_PASSWORD="your-app-password"
+$env:MAIL_SUBJECT="Your subject"
+python send_mail.py
+```

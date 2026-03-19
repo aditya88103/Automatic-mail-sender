@@ -1,58 +1,38 @@
-import smtplib
-import csv
-import re
-from email.mime.text import MIMEText
+import os
+from pathlib import Path
 
-sender_email = "your email here"
-app_password = "your app password here"
+from mailer import send_bulk_emails
 
-subject = "Data Analyst Internship Opportunity"
 
-server = smtplib.SMTP("smtp.gmail.com", 587)
-server.starttls()
-server.login(sender_email, app_password)
+def main() -> None:
+    sender_email = os.getenv("SENDER_EMAIL")
+    app_password = os.getenv("APP_PASSWORD")
+    subject = os.getenv("MAIL_SUBJECT", "Bulk Email")
 
-email_pattern = re.compile(r"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$")
+    if not sender_email or not app_password:
+        raise SystemExit("Set SENDER_EMAIL and APP_PASSWORD environment variables before running.")
 
-with open("emails.csv", newline="", encoding="utf-8") as file:
-    reader = csv.DictReader(file)
+    csv_path = Path("email.csv")
+    if not csv_path.exists():
+        raise SystemExit("Missing email.csv in the project root.")
 
-    for row in reader:
-        name = row["Name"]
-        email = row["Email"]
-        company = row["Company"]
+    body_template = """Hi {{name}},
 
-        if not email_pattern.match(email):
-            print("Skipped invalid email:", email)
-            continue
-        
-
-        body = f"""Hi {name},
-
-I came across {company}'s Data Analytics Internship opening on LinkedIn and wanted to reach out directly.
-
-I'm Aditya Raj, a B.Tech student at Invertis University (2023-27, CGPA: 7.9) with hands-on experience in Python, SQL, Power BI, and DAX. A few things I've built recently:
-
-- A Power BI dashboard with 10+ visuals for Super Store Sales & Profit analysis (YoY trends, KPIs using DAX)
-- A PostgreSQL-based Bookstore Sales Analytics project with 15+ complex queries (joins, aggregations, revenue trends)
-- A full Retail EDA using Pandas, NumPy, and Scikit-learn with heatmaps and outlier detection
-
-I also completed the Deloitte Data Analytics Job Simulation (Forage) and hold certifications in Python (IBM), Power BI, and SQL.
-
-I'm available for a 3-6 month internship immediately . I'd love to contribute to {company}'s data team.
-
-Would you be open to a quick 10-minute call, or shall I send my resume for review?
+I wanted to connect with {{company}} regarding the available opportunity.
 
 Best regards,
-Aditya Raj 
+Your Name
 """
 
-        msg = MIMEText(body, _charset="utf-8")
-        msg["Subject"] = subject
-        msg["From"] = sender_email
-        msg["To"] = email
+    send_bulk_emails(
+        csv_text=csv_path.read_text(encoding="utf-8-sig"),
+        sender_email=sender_email,
+        app_password=app_password,
+        subject_template=subject,
+        body_template=body_template,
+        progress_callback=lambda event: print(event.get("message", event)),
+    )
 
-        server.sendmail(sender_email, email, msg.as_string())
-        print("Sent to:", email)
 
-server.quit()
+if __name__ == "__main__":
+    main()

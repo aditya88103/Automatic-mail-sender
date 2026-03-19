@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Mail Sender</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="background">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="grid"></div>
+    </div>
+
+    <main class="page-shell">
+        <section class="hero">
+            <div class="hero-copy">
+                <span class="eyebrow">Bulk Gmail Sender</span>
+                <h1>Preview, filter, attach, and send from one animated dashboard.</h1>
+                <p>
+                    The app validates your CSV, skips duplicates, supports resume attachment, limits batches in test
+                    mode, and shows live counters while emails are being sent.
+                </p>
+                <div class="hero-pills">
+                    <span>Preview first 3 emails</span>
+                    <span>Auto duplicate filtering</span>
+                    <span>No database</span>
+                </div>
+            </div>
+            <div class="hero-card floating">
+                <div class="status-dot"></div>
+                <strong>Expected CSV headers</strong>
+                <p><code>Email</code> is required. <code>HR_Name</code>, <code>Company_Name</code>, <code>City</code>, <code>Job_Role</code>, and <code>Source_Link</code> can be used as placeholders.</p>
+                <p>Use <code>{% raw %}{{name}}{% endraw %}</code>, <code>{% raw %}{{company}}{% endraw %}</code>, <code>{% raw %}{{city}}{% endraw %}</code>, <code>{% raw %}{{job_role}}{% endraw %}</code>, or exact CSV headers like <code>{% raw %}{{Company_Name}}{% endraw %}</code>.</p>
+            </div>
+        </section>
+
+        <section class="stats-grid" id="statsGrid">
+            <article class="stat-card">
+                <span>Total Rows</span>
+                <strong id="statTotalRows">0</strong>
+            </article>
+            <article class="stat-card">
+                <span>Queued</span>
+                <strong id="statQueuedRecipients">0</strong>
+            </article>
+            <article class="stat-card">
+                <span>Sent</span>
+                <strong id="statSent">0</strong>
+            </article>
+            <article class="stat-card">
+                <span>Failed</span>
+                <strong id="statFailed">0</strong>
+            </article>
+            <article class="stat-card">
+                <span>Invalid</span>
+                <strong id="statInvalidEmails">0</strong>
+            </article>
+            <article class="stat-card">
+                <span>Duplicates</span>
+                <strong id="statDuplicates">0</strong>
+            </article>
+        </section>
+
+        <section class="layout">
+            <form id="mailForm" class="panel form-panel">
+                <div class="panel-header">
+                    <h2>Send Mail</h2>
+                    <span class="panel-badge">Frontend + SMTP</span>
+                </div>
+
+                <label>
+                    <span>Upload CSV</span>
+                    <input id="csvFile" name="csvFile" type="file" accept=".csv" required>
+                    <small>Only upload a file named <code>email.csv</code>.</small>
+                </label>
+
+                <label>
+                    <span>Resume Attachment</span>
+                    <input id="resumeFile" name="resumeFile" type="file" accept=".pdf,.doc,.docx">
+                    <small>Optional. If selected, this file is attached to every email in the current run.</small>
+                </label>
+
+                <label>
+                    <span>Gmail Account</span>
+                    <input id="senderEmail" name="senderEmail" type="email" placeholder="yourname@gmail.com" required>
+                </label>
+
+                <label>
+                    <span>App Password</span>
+                    <input id="appPassword" name="appPassword" type="password" placeholder="16-character app password" required>
+                </label>
+
+                <div class="inline-grid">
+                    <label>
+                        <span>Subject</span>
+                        <input id="subject" name="subject" type="text" placeholder="Application for {{job_role}} at {{company}}" required>
+                    </label>
+
+                    <label class="toggle-card">
+                        <span>Test Mode</span>
+                        <div class="toggle-row">
+                            <input id="testMode" name="testMode" type="checkbox" value="true">
+                            <strong>Send only a limited batch</strong>
+                        </div>
+                    </label>
+                </div>
+
+                <label id="testLimitWrap" class="hidden-field">
+                    <span>Test Limit</span>
+                    <input id="testLimit" name="testLimit" type="number" min="1" value="5">
+                    <small>When test mode is on, only the first valid unique recipients are sent.</small>
+                </label>
+
+                <label>
+                    <span>Message</span>
+                    <textarea id="message" name="message" rows="12" required>{% raw %}Hi {{name}},
+
+I came across {{company}} and wanted to connect regarding {{job_role}} opportunities in {{city}}.
+
+Please let me know if I can share more details or discuss the role further.
+
+Best regards,
+Your Name{% endraw %}</textarea>
+                </label>
+
+                <div class="button-row">
+                    <button id="previewButton" class="ghost-button" type="button">Preview Emails</button>
+                    <button id="sendButton" class="send-button" type="submit">
+                        <span>Start Sending</span>
+                    </button>
+                </div>
+
+                <p id="formStatus" class="form-status"></p>
+            </form>
+
+            <aside class="stack">
+                <section class="panel preview-panel">
+                    <div class="panel-header">
+                        <h2>Preview</h2>
+                        <span id="previewAttachment" class="panel-badge idle">No attachment</span>
+                    </div>
+                    <div id="previewMeta" class="preview-meta">Run a preview to inspect the first 3 rendered emails.</div>
+                    <div id="issuesBox" class="issues-box hidden"></div>
+                    <div id="previewList" class="preview-list">
+                        <article class="preview-card muted-card">No preview loaded yet.</article>
+                    </div>
+                </section>
+
+                <section class="panel steps-panel">
+                    <div class="panel-header">
+                        <h2>How To Get App Password</h2>
+                    </div>
+                    <ol class="steps-list">
+                        <li>Open Gmail, then click your profile photo and choose <strong>Manage your Google Account</strong>.</li>
+                        <li>Open the <strong>Security</strong> tab and make sure <strong>2-Step Verification</strong> is enabled.</li>
+                        <li>Search for <strong>App Passwords</strong> from the Google Account security area.</li>
+                        <li>Generate the 16-character password and paste it into this form.</li>
+                        <li>Preview first, then send the batch when the counts and sample emails look correct.</li>
+                    </ol>
+                </section>
+
+                <section class="panel terminal-panel">
+                    <div class="panel-header">
+                        <h2>Delivery Terminal</h2>
+                        <span id="terminalState" class="panel-badge idle">Idle</span>
+                    </div>
+                    <div id="terminal" class="terminal" aria-live="polite">
+                        <div class="terminal-line muted">Waiting for a send job...</div>
+                    </div>
+                </section>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-shell">
+            <section class="footer-grid">
+                <article class="footer-panel footer-intro">
+                    <span class="footer-kicker">Automatic Mail Sender</span>
+                    <h2>Everything you need to send bulk Gmail emails from one page, without storing your data.</h2>
+                    <p>
+                        This frontend is designed for a simple workflow: upload <code>email.csv</code>, preview the
+                        rendered emails, attach your resume if needed, enable test mode when you want a small batch,
+                        and then send the campaign while the terminal shows live progress.
+                    </p>
+                </article>
+
+                <article class="footer-panel footer-details">
+                    <h3>How It Works</h3>
+                    <ul class="footer-list">
+                        <li>The app accepts only <code>email.csv</code> and checks the file before sending.</li>
+                        <li>Preview mode renders the first three emails so you can verify placeholders and formatting.</li>
+                        <li>Duplicate and invalid email addresses are skipped automatically before delivery.</li>
+                        <li>Test mode limits the run to the first valid recipients so you can verify the flow safely.</li>
+                        <li>An optional resume file can be attached to every email for the current session only.</li>
+                        <li>No database is used, so form data and files are handled in memory during the active job only.</li>
+                    </ul>
+                </article>
+
+                <article class="footer-panel footer-details">
+                    <h3>Placeholder Support</h3>
+                    <ul class="footer-list">
+                        <li>Use <code>{% raw %}{{name}}{% endraw %}</code>, <code>{% raw %}{{company}}{% endraw %}</code>, <code>{% raw %}{{email}}{% endraw %}</code>, <code>{% raw %}{{city}}{% endraw %}</code>, and <code>{% raw %}{{job_role}}{% endraw %}</code>.</li>
+                        <li>You can also use exact CSV header names such as <code>{% raw %}{{Company_Name}}{% endraw %}</code> or <code>{% raw %}{{Source_Link}}{% endraw %}</code>.</li>
+                        <li>The live counter cards show total rows, queued recipients, sent emails, failed emails, invalid emails, and duplicates.</li>
+                        <li>The delivery terminal streams status lines like <code>Sent to: careers@example.com</code> in real time.</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="developers-panel footer-panel">
+                <div class="panel-header footer-header">
+                    <h2>Developers</h2>
+                    <span class="panel-badge">Glassmorphism Cards</span>
+                </div>
+                <div class="developer-grid">
+                    <a class="developer-card" href="https://github.com/aditya88103" target="_blank" rel="noreferrer">
+                        <img src="https://github.com/aditya88103.png" alt="Aditya GitHub profile photo" class="developer-avatar">
+                        <div class="developer-copy">
+                            <strong>Aditya</strong>
+                            <span>@aditya88103</span>
+                            <p>GitHub profile and contributor card linked directly to the public account.</p>
+                        </div>
+                    </a>
+
+                    <a class="developer-card" href="https://github.com/rajpratham1" target="_blank" rel="noreferrer">
+                        <img src="https://github.com/rajpratham1.png" alt="Pratham Kumar GitHub profile photo" class="developer-avatar">
+                        <div class="developer-copy">
+                            <strong>Pratham Kumar</strong>
+                            <span>@rajpratham1</span>
+                            <p>B.Tech CSE student, web developer, and active builder. Linked to the public GitHub profile.</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
