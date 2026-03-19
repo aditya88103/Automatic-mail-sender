@@ -1,0 +1,568 @@
+HR_Name,Email,Phone_Number,Company_Name,City,Job_Role,Source_Link
+HR Team,hr@hcltech.com,,HCL Technologies,Noida,Full Stack Developer,https://www.hcltech.com/careers
+HR Team,careers@wipro.com,,Wipro Limited,Noida,Web Developer,https://careers.wipro.com
+HR Team,hr@tcs.com,,Tata Consultancy Services,Noida,Full Stack Developer,https://www.tcs.com/careers
+HR Team,recruitment@infosys.com,,Infosys,Noida,Web Developer,https://www.infosys.com/careers
+HR Team,hr@techmahindra.com,,Tech Mahindra,Noida,Full Stack Developer,https://careers.techmahindra.com
+HR Team,careers@mphasis.com,,Mphasis,Gurgaon,Web Developer,https://www.mphasis.com/careers
+HR Team,hr@niit-tech.com,,NIIT Technologies,Noida,Full Stack Developer,https://www.niit-tech.com/careers
+HR Team,hr@cyient.com,,Cyient,Noida,Web Developer,https://www.cyient.com/careers
+HR Team,careers@nttdata.com,,NTT Data,Gurgaon,Full Stack Developer,https://www.nttdata.com/global/en/careers
+HR Team,hr@concentrix.com,,Concentrix,Gurgaon,Web Developer,https://careers.concentrix.com
+HR Team,hr@genpact.com,,Genpact,Gurgaon,Full Stack Developer,https://www.genpact.com/careers
+HR Team,careers@ey.com,,Ernst & Young (EY),Gurgaon,Full Stack Developer,https://www.ey.com/en_in/careers
+HR Team,hr@deloitte.com,,Deloitte,Gurgaon,Web Developer,https://www2.deloitte.com/in/en/careers
+HR Team,hr@accenture.com,,Accenture,Gurgaon,Full Stack Developer,https://www.accenture.com/in-en/careers
+HR Team,careers@capgemini.com,,Capgemini,Gurgaon,Full Stack Developer,https://www.capgemini.com/in-en/careers
+HR Team,hr@cognizant.com,,Cognizant,Noida,Web Developer,https://careers.cognizant.com
+HR Team,hr@globallogic.com,,GlobalLogic,Noida,Full Stack Developer,https://www.globallogic.com/careers
+HR Team,careers@adobe.com,,Adobe Systems,Noida,Full Stack Developer,https://www.adobe.com/careers.html
+HR Team,hr@samsung.com,,Samsung R&D Institute,Noida,Full Stack Developer,https://research.samsung.com/careers
+HR Team,hr@samsung.com,,Samsung R&D Institute,Delhi,Web Developer,https://research.samsung.com/careers
+HR Team,careers@microsoft.com,,Microsoft,Gurgaon,Full Stack Developer,https://careers.microsoft.com
+HR Team,hr@google.com,,Google,Gurgaon,Full Stack Developer,https://careers.google.com
+HR Team,careers@amazon.com,,Amazon,Gurgaon,Full Stack Developer,https://www.amazon.jobs
+HR Team,hr@flipkart.com,,Flipkart,Gurgaon,Web Developer,https://www.flipkartcareers.com
+HR Team,careers@paytm.com,,Paytm (One97 Communications),Noida,Full Stack Developer,https://paytm.com/careers
+HR Team,hr@zomato.com,,Zomato,Gurgaon,Full Stack Developer,https://www.zomato.com/careers
+HR Team,hr@snapdeal.com,,Snapdeal,Gurgaon,Web Developer,https://careers.snapdeal.com
+HR Team,hr@policybazaar.com,,PolicyBazaar,Gurgaon,Full Stack Developer,https://www.policybazaar.com/careers
+HR Team,careers@makemytrip.com,,MakeMyTrip,Gurgaon,Full Stack Developer,https://careers.makemytrip.com
+HR Team,hr@indiamart.com,,IndiaMart,Noida,Web Developer,https://www.indiamart.com/careers
+HR Team,hr@naukri.com,,Naukri (Info Edge),Noida,Full Stack Developer,https://www.infoedge.in/careers
+HR Team,careers@justdial.com,,JustDial,Delhi,Web Developer,https://www.justdial.com/careers
+HR Team,hr@lenskart.com,,Lenskart,Gurgaon,Full Stack Developer,https://www.lenskart.com/careers
+HR Team,hr@oyo.com,,OYO Rooms,Gurgaon,Full Stack Developer,https://www.oyorooms.com/careers
+HR Team,careers@bharti-airtel.com,,Airtel,Gurgaon,Web Developer,https://www.airtel.in/careers
+HR Team,hr@hdfcbank.com,,HDFC Bank IT,Gurgaon,Full Stack Developer,https://www.hdfcbank.com/content/bbp/repositories/723fb80a-2dde-42a3-9793-7ae1be57c87f/careers
+HR Team,careers@icicibank.com,,ICICI Bank Technology,Mumbai/Delhi,Full Stack Developer,https://www.icicicareers.com
+HR Team,hr@mastercard.com,,Mastercard Technology,Gurgaon,Full Stack Developer,https://careers.mastercard.com
+HR Team,hr@americanexpress.com,,American Express,Gurgaon,Full Stack Developer,https://www.americanexpress.com/en-us/careers
+HR Team,careers@oracle.com,,Oracle India,Gurgaon,Full Stack Developer,https://www.oracle.com/in/corporate/careers
+HR Team,hr@sap.com,,SAP India,Gurgaon,Full Stack Developer,https://jobs.sap.com
+HR Team,careers@ibm.com,,IBM India,Delhi,Full Stack Developer,https://www.ibm.com/employment
+HR Team,hr@intel.com,,Intel India,Gurgaon,Web Developer,https://jobs.intel.com
+HR Team,careers@qualcomm.com,,Qualcomm India,Gurgaon,Full Stack Developer,https://www.qualcomm.com/company/careers
+HR Team,hr@ericsson.com,,Ericsson India,Gurgaon,Web Developer,https://www.ericsson.com/en/careers
+HR Team,careers@nokia.com,,Nokia India,Gurgaon,Full Stack Developer,https://www.nokia.com/careers
+HR Team,hr@lg.com,,LG Electronics India,Noida,Web Developer,https://www.lg.com/in/careers
+HR Team,careers@yamaha.com,,Yamaha Motor Solutions,Noida,Web Developer,https://www.yamaha-motor-india.com/careers
+HR Team,hr@herogroup.com,,Hero Group Technology,Gurgaon,Web Developer,https://www.herogroup.com/careers
+HR Team,careers@bharatpe.com,,BharatPe,Delhi,Full Stack Developer,https://bharatpe.com/careers
+HR Team,hr@razorpay.com,,Razorpay,Delhi/Gurgaon,Full Stack Developer,https://razorpay.com/jobs
+HR Team,hr@mobikwik.com,,MobiKwik,Gurgaon,Full Stack Developer,https://www.mobikwik.com/careers
+HR Team,careers@cashfree.com,,Cashfree Payments,Gurgaon,Full Stack Developer,https://www.cashfree.com/careers
+HR Team,hr@ola.com,,Ola Cabs,Gurgaon,Full Stack Developer,https://www.olacabs.com/careers
+HR Team,careers@swiggy.com,,Swiggy,Gurgaon,Full Stack Developer,https://careers.swiggy.com
+HR Team,hr@urbancompany.com,,Urban Company,Gurgaon,Full Stack Developer,https://www.urbancompany.com/careers
+HR Team,careers@nykaa.com,,Nykaa,Gurgaon,Full Stack Developer,https://careers.nykaa.com
+HR Team,hr@meesho.com,,Meesho,Gurgaon,Full Stack Developer,https://meesho.io/careers
+HR Team,hr@cars24.com,,CARS24,Gurgaon,Full Stack Developer,https://www.cars24.com/careers
+HR Team,careers@droom.in,,Droom Technology,Gurgaon,Web Developer,https://droom.in/careers
+HR Team,hr@91mobiles.com,,91Mobiles,Delhi,Web Developer,https://www.91mobiles.com/careers
+HR Team,careers@gaana.com,,Gaana (Times Internet),Noida,Full Stack Developer,https://gaana.com/careers
+HR Team,hr@timesinternet.in,,Times Internet,Noida,Full Stack Developer,https://timesinternet.in/careers
+HR Team,hr@hike.in,,Hike Messenger,Delhi,Full Stack Developer,https://hike.in/careers
+HR Team,careers@unacademy.com,,Unacademy,Gurgaon,Full Stack Developer,https://unacademy.com/careers
+HR Team,hr@byjus.com,,BYJU'S,Noida,Full Stack Developer,https://byjus.com/careers
+HR Team,careers@vedantu.com,,Vedantu,Delhi,Full Stack Developer,https://www.vedantu.com/careers
+HR Team,hr@meritnation.com,,Meritnation (Info Edge),Noida,Web Developer,https://www.meritnation.com/careers
+HR Team,hr@physicswallah.com,,Physics Wallah,Noida,Full Stack Developer,https://physicswallah.live/careers
+HR Team,careers@classplus.co,,Classplus,Noida,Full Stack Developer,https://classplus.co/careers
+HR Team,hr@apnaahangout.com,,Apna,Gurgaon,Full Stack Developer,https://apna.co/careers
+HR Team,careers@springworks.in,,Springworks,Gurgaon,Full Stack Developer,https://www.springworks.in/careers
+HR Team,hr@darwinbox.com,,Darwinbox,Gurgaon,Full Stack Developer,https://darwinbox.com/careers
+HR Team,careers@leadsquared.com,,LeadSquared,Noida,Full Stack Developer,https://www.leadsquared.com/careers
+HR Team,hr@freshworks.com,,Freshworks,Gurgaon,Full Stack Developer,https://www.freshworks.com/company/careers
+HR Team,hr@zoho.com,,Zoho,Delhi/NCR,Full Stack Developer,https://www.zoho.com/careers.html
+HR Team,careers@hashedin.com,,HashedIn by Deloitte,Gurgaon,Full Stack Developer,https://hashedin.com/careers
+HR Team,hr@xoriant.com,,Xoriant,Gurgaon,Full Stack Developer,https://www.xoriant.com/careers
+HR Team,careers@nagarro.com,,Nagarro,Gurgaon,Full Stack Developer,https://www.nagarro.com/en/careers
+HR Team,hr@publicissapient.com,,Publicis Sapient,Gurgaon,Full Stack Developer,https://www.publicissapient.com/careers
+HR Team,careers@thoughtworks.com,,Thoughtworks,Gurgaon,Full Stack Developer,https://www.thoughtworks.com/careers
+HR Team,hr@mindtree.com,,Mindtree (LTIMindtree),Noida,Full Stack Developer,https://www.ltimindtree.com/careers
+HR Team,careers@ltimindtree.com,,LTIMindtree,Noida,Web Developer,https://www.ltimindtree.com/careers
+HR Team,hr@hexaware.com,,Hexaware Technologies,Noida,Full Stack Developer,https://hexaware.com/careers
+HR Team,careers@nisum.com,,Nisum,Gurgaon,Full Stack Developer,https://www.nisum.com/careers
+HR Team,hr@persistent.com,,Persistent Systems,Noida,Full Stack Developer,https://www.persistent.com/careers
+HR Team,careers@coforge.com,,Coforge,Noida,Full Stack Developer,https://www.coforge.com/careers
+HR Team,hr@firstsource.com,,Firstsource Solutions,Noida,Web Developer,https://www.firstsource.com/careers
+HR Team,careers@motilaloswal.com,,Motilal Oswal,Delhi,Full Stack Developer,https://www.motilaloswal.com/careers
+HR Team,hr@angelbroking.com,,Angel One (Angel Broking),Noida,Full Stack Developer,https://www.angelbroking.com/careers
+HR Team,careers@zerodha.com,,Zerodha,Delhi,Full Stack Developer,https://zerodha.com/careers
+HR Team,hr@groww.in,,Groww,Gurgaon,Full Stack Developer,https://groww.in/careers
+HR Team,careers@smallcase.com,,Smallcase,Gurgaon,Full Stack Developer,https://smallcase.com/careers
+HR Team,hr@cleartax.in,,ClearTax,Delhi,Full Stack Developer,https://cleartax.in/careers
+HR Team,careers@taxmann.com,,Taxmann,Delhi,Web Developer,https://www.taxmann.com/careers
+HR Team,hr@spinny.com,,Spinny,Gurgaon,Full Stack Developer,https://www.spinny.com/careers
+HR Team,careers@cardekho.com,,CarDekho,Gurgaon,Full Stack Developer,https://www.cardekho.com/careers
+HR Team,hr@gaadi.com,,Gaadi.com,Gurgaon,Web Developer,https://www.gaadi.com/careers
+HR Team,careers@99acres.com,,99acres (Info Edge),Noida,Full Stack Developer,https://www.99acres.com/microsite/careers
+HR Team,hr@magicbricks.com,,Magicbricks,Noida,Full Stack Developer,https://www.magicbricks.com/careers
+HR Team,careers@housing.com,,Housing.com,Gurgaon,Full Stack Developer,https://housing.com/careers
+HR Team,hr@nobroker.com,,NoBroker,Delhi,Full Stack Developer,https://www.nobroker.in/careers
+HR Team,careers@squareyards.com,,Square Yards,Gurgaon,Full Stack Developer,https://www.squareyards.com/careers
+HR Team,hr@anarock.com,,Anarock Property,Gurgaon,Web Developer,https://www.anarock.com/careers
+HR Team,careers@propiger.com,,PropTiger (Housing),Gurgaon,Full Stack Developer,https://www.proptiger.com/careers
+HR Team,hr@netmeds.com,,Netmeds,Delhi,Full Stack Developer,https://www.netmeds.com/careers
+HR Team,careers@1mg.com,,1mg (Tata Digital),Gurgaon,Full Stack Developer,https://www.1mg.com/careers
+HR Team,hr@pharmeasy.in,,PharmEasy,Delhi,Full Stack Developer,https://pharmeasy.in/careers
+HR Team,careers@portea.com,,Portea Medical,Gurgaon,Web Developer,https://www.portea.com/careers
+HR Team,hr@lybrate.com,,Lybrate,Gurgaon,Full Stack Developer,https://www.lybrate.com/careers
+HR Team,careers@practo.com,,Practo,Delhi,Full Stack Developer,https://www.practo.com/company/careers
+HR Team,hr@healthkart.com,,HealthKart,Gurgaon,Full Stack Developer,https://www.healthkart.com/info/careers
+HR Team,careers@pristyncare.com,,Pristyn Care,Gurgaon,Full Stack Developer,https://www.pristyncare.com/careers
+HR Team,hr@medibuddy.in,,MediBuddy,Gurgaon,Full Stack Developer,https://www.medibuddy.in/careers
+HR Team,careers@mfine.co,,mfine,Gurgaon,Full Stack Developer,https://mfine.co/careers
+HR Team,hr@deltax.com,,DeltaX,Gurgaon,Full Stack Developer,https://www.deltax.com/careers
+HR Team,careers@adpushup.com,,AdPushup,Delhi,Full Stack Developer,https://www.adpushup.com/careers
+HR Team,hr@silverpush.com,,SilverPush,Delhi,Full Stack Developer,https://silverpush.co/careers
+HR Team,careers@logicserve.com,,Logicserve Digital,Noida,Full Stack Developer,https://www.logicserve.com/careers
+HR Team,hr@performio.co,,Performio,Gurgaon,Web Developer,https://www.performio.co/careers
+HR Team,careers@vwo.com,,VWO (Wingify),Delhi,Full Stack Developer,https://vwo.com/careers
+HR Team,hr@wingify.com,,Wingify,Delhi,Full Stack Developer,https://wingify.com/careers
+HR Team,careers@browserstack.com,,BrowserStack,Noida,Full Stack Developer,https://www.browserstack.com/careers
+HR Team,hr@postman.com,,Postman,Delhi,Full Stack Developer,https://www.postman.com/careers
+HR Team,careers@razorops.com,,Razorops,Noida,Full Stack Developer,https://razorops.com/careers
+HR Team,hr@atlan.com,,Atlan,Delhi,Full Stack Developer,https://atlan.com/careers
+HR Team,careers@hasura.io,,Hasura,Delhi,Full Stack Developer,https://hasura.io/careers
+HR Team,hr@appsmith.com,,Appsmith,Delhi,Full Stack Developer,https://www.appsmith.com/careers
+HR Team,careers@skit.ai,,Skit.ai,Noida,Full Stack Developer,https://skit.ai/careers
+HR Team,hr@haptik.ai,,Haptik,Gurgaon,Full Stack Developer,https://www.haptik.ai/careers
+HR Team,careers@vernacular.ai,,Vernacular AI,Gurgaon,Full Stack Developer,https://vernacular.ai/careers
+HR Team,hr@entropik.io,,Entropik Tech,Gurgaon,Full Stack Developer,https://entropik.io/careers
+HR Team,careers@sigtuple.com,,SigTuple Technologies,Gurgaon,Full Stack Developer,https://sigtuple.com/careers
+HR Team,hr@uncanny-vision.com,,Uncanny Vision,Noida,Full Stack Developer,https://www.uncanny-vision.com/careers
+HR Team,careers@staqu.com,,Staqu Technologies,Gurgaon,Full Stack Developer,https://www.staqu.com/careers
+HR Team,hr@absentia.in,,Absentia VR,Delhi,Full Stack Developer,https://www.absentia.in/careers
+HR Team,careers@ninjacart.com,,Ninjacart,Delhi,Full Stack Developer,https://ninjacart.com/careers
+HR Team,hr@udaan.com,,Udaan,Delhi,Full Stack Developer,https://udaan.com/careers
+HR Team,careers@elasticrun.com,,ElasticRun,Gurgaon,Full Stack Developer,https://www.elasticrun.com/careers
+HR Team,hr@locus.sh,,Locus,Gurgaon,Full Stack Developer,https://locus.sh/careers
+HR Team,careers@fareye.com,,FarEye,Noida,Full Stack Developer,https://fareye.com/careers
+HR Team,hr@shadowfax.in,,Shadowfax,Gurgaon,Full Stack Developer,https://shadowfax.in/careers
+HR Team,careers@shipkaro.com,,ShipKaro,Noida,Web Developer,https://shipkaro.com/careers
+HR Team,hr@pickrr.com,,Pickrr,Gurgaon,Full Stack Developer,https://pickrr.com/careers
+HR Team,careers@delhivery.com,,Delhivery,Gurgaon,Full Stack Developer,https://www.delhivery.com/careers
+HR Team,hr@ecom-express.com,,Ecom Express,Gurgaon,Web Developer,https://www.ecomexpress.in/careers
+HR Team,careers@xpressbees.com,,Xpressbees,Noida,Web Developer,https://www.xpressbees.com/careers
+HR Team,hr@dtdc.com,,DTDC Courier,Delhi,Web Developer,https://www.dtdc.in/careers
+HR Team,careers@bluedarttechnology.com,,Blue Dart Technology,Delhi,Web Developer,https://www.bluedart.com/careers
+HR Team,hr@teabox.com,,Teabox,Delhi,Web Developer,https://www.teabox.com/careers
+HR Team,careers@fabindia.com,,FabIndia Technology,Delhi,Web Developer,https://www.fabindia.com/careers
+HR Team,hr@bewakoof.com,,Bewakoof,Delhi,Full Stack Developer,https://www.bewakoof.com/careers
+HR Team,careers@myntra.com,,Myntra,Gurgaon,Full Stack Developer,https://careers.myntra.com
+HR Team,hr@ajio.com,,AJIO (Reliance),Gurgaon,Full Stack Developer,https://ajio.com/careers
+HR Team,careers@reliancedigital.in,,Reliance Digital,Noida,Full Stack Developer,https://www.reliancedigital.in/careers
+HR Team,hr@jiomart.com,,JioMart,Noida,Full Stack Developer,https://www.jio.com/en-in/careers
+HR Team,careers@tatacliq.com,,Tata Cliq,Gurgaon,Full Stack Developer,https://www.tatacliq.com/careers
+HR Team,hr@croma.com,,Croma (Tata),Noida,Web Developer,https://www.croma.com/careers
+HR Team,careers@shopclues.com,,ShopClues,Gurgaon,Web Developer,https://www.shopclues.com/careers
+HR Team,hr@pepperfry.com,,Pepperfry,Gurgaon,Full Stack Developer,https://www.pepperfry.com/careers
+HR Team,careers@urbanladder.com,,Urban Ladder,Gurgaon,Full Stack Developer,https://www.urbanladder.com/careers
+HR Team,hr@livspace.com,,Livspace,Gurgaon,Full Stack Developer,https://www.livspace.com/in/careers
+HR Team,careers@nestaway.com,,Nestaway,Gurgaon,Full Stack Developer,https://www.nestaway.com/careers
+HR Team,hr@stanza-living.com,,Stanza Living,Gurgaon,Full Stack Developer,https://www.stanzaliving.com/careers
+HR Team,careers@coho.in,,Coho,Gurgaon,Full Stack Developer,https://www.coho.in/careers
+HR Team,hr@zolo.in,,Zolo Stays,Gurgaon,Full Stack Developer,https://www.zolo.in/careers
+HR Team,careers@colive.com,,Colive,Delhi,Web Developer,https://colive.com/careers
+HR Team,hr@oxfordpets.com,,Supertails,Delhi,Web Developer,https://supertails.com/careers
+HR Team,careers@heads-up-for-tails.com,,Heads Up For Tails,Delhi,Web Developer,https://headsupfortails.com/careers
+HR Team,hr@dogspot.in,,DogSpot,Noida,Web Developer,https://www.dogspot.in/careers
+HR Team,careers@milkbasket.com,,Milkbasket,Gurgaon,Full Stack Developer,https://www.milkbasket.com/careers
+HR Team,hr@bigbasket.com,,BigBasket,Gurgaon,Full Stack Developer,https://careers.bigbasket.com
+HR Team,careers@blinkit.com,,Blinkit (Zomato),Gurgaon,Full Stack Developer,https://blinkit.com/careers
+HR Team,hr@dunzo.com,,Dunzo,Gurgaon,Full Stack Developer,https://www.dunzo.com/careers
+HR Team,careers@zepto.com,,Zepto,Delhi,Full Stack Developer,https://www.zeptonow.com/careers
+HR Team,hr@swishclub.com,,Swish,Delhi,Full Stack Developer,https://www.swiggy.com/careers
+HR Team,careers@fraazo.com,,Fraazo,Noida,Full Stack Developer,https://www.fraazo.com/careers
+HR Team,hr@supermarket.com,,SuperK,Noida,Web Developer,https://superk.in/careers
+HR Team,careers@wakefit.co,,Wakefit,Gurgaon,Full Stack Developer,https://www.wakefit.co/careers
+HR Team,hr@duroflex.com,,Duroflex,Delhi,Web Developer,https://www.duroflex.com/careers
+HR Team,careers@sleepyhead.in,,Sleepyhead,Delhi,Web Developer,https://sleepyhead.in/careers
+HR Team,hr@wooden.in,,Wooden Street,Noida,Web Developer,https://www.woodenstreet.com/careers
+HR Team,careers@housejoy.in,,Housejoy,Gurgaon,Web Developer,https://www.housejoy.in/careers
+HR Team,hr@zimyo.com,,Zimyo,Gurgaon,Full Stack Developer,https://www.zimyo.com/careers
+HR Team,careers@keka.com,,Keka HR,Gurgaon,Full Stack Developer,https://www.keka.com/careers
+HR Team,hr@greythr.com,,greytHR,Noida,Full Stack Developer,https://www.greythr.com/careers
+HR Team,careers@sumhr.com,,SumHR,Delhi,Full Stack Developer,https://www.sumhr.com/careers
+HR Team,hr@qandle.com,,Qandle,Delhi,Full Stack Developer,https://qandle.com/careers
+HR Team,careers@hackajob.com,,Hackajob,Gurgaon,Full Stack Developer,https://hackajob.com/careers
+HR Team,hr@hirist.com,,Hirist,Noida,Full Stack Developer,https://hirist.tech/careers
+HR Team,careers@instahyre.com,,Instahyre,Delhi,Full Stack Developer,https://www.instahyre.com/careers
+HR Team,hr@cutshort.io,,Cutshort,Gurgaon,Full Stack Developer,https://cutshort.io/careers
+HR Team,careers@talent500.co,,Talent500,Gurgaon,Full Stack Developer,https://talent500.co/careers
+HR Team,hr@naukrigulf.com,,NaukriGulf (Info Edge),Noida,Full Stack Developer,https://www.naukrigulf.com/careers
+HR Team,careers@ambitionbox.com,,AmbitionBox,Noida,Web Developer,https://www.ambitionbox.com/careers
+HR Team,hr@iimjobs.com,,IIMJobs,Gurgaon,Full Stack Developer,https://www.iimjobs.com/careers
+HR Team,careers@foundit.in,,Foundit (Monster),Gurgaon,Full Stack Developer,https://www.foundit.in/careers
+HR Team,hr@timesjobs.com,,TimesJobs,Noida,Web Developer,https://www.timesjobs.com/careers
+HR Team,careers@shine.com,,Shine.com,Gurgaon,Web Developer,https://www.shine.com/careers
+HR Team,hr@bigshyam.com,,BigShyam,Noida,Web Developer,https://bigshyam.com/careers
+HR Team,careers@webkul.com,,Webkul Software,Noida,Full Stack Developer,https://webkul.com/careers
+HR Team,hr@rsystems.com,,R Systems International,Noida,Full Stack Developer,https://www.rsystems.com/careers
+HR Team,careers@hcl.com,,HCL Infosystems,Noida,Web Developer,https://www.hclinfosystems.com/careers
+HR Team,hr@sterlitetechnologies.com,,Sterlite Technologies,Gurgaon,Web Developer,https://www.stl.tech/careers
+HR Team,careers@bharatelectronics.com,,Bharat Electronics,Ghaziabad,Web Developer,https://www.bel-india.in/careers
+HR Team,hr@wiprostrategy.com,,Wipro GE Healthcare,Gurgaon,Full Stack Developer,https://careers.wipro.com
+HR Team,careers@atos.net,,Atos India,Noida,Full Stack Developer,https://atos.net/en/careers
+HR Team,hr@dxc.com,,DXC Technology,Noida,Full Stack Developer,https://careers.dxc.com
+HR Team,careers@unisys.com,,Unisys India,Noida,Full Stack Developer,https://www.unisys.com/careers
+HR Team,hr@cgi.com,,CGI Group,Noida,Full Stack Developer,https://www.cgi.com/en/careers
+HR Team,careers@zensar.com,,Zensar Technologies,Noida,Full Stack Developer,https://www.zensar.com/careers
+HR Team,hr@mastech.com,,Mastech Digital,Noida,Full Stack Developer,https://www.mastechdigital.com/careers
+HR Team,careers@igate.com,,Capgemini (iGate),Gurgaon,Full Stack Developer,https://www.capgemini.com/in-en/careers
+HR Team,hr@patni.com,,DXC (Patni),Noida,Full Stack Developer,https://careers.dxc.com
+HR Team,careers@birlasoft.com,,Birlasoft,Noida,Full Stack Developer,https://www.birlasoft.com/careers
+HR Team,hr@eclerx.com,,eClerx Services,Gurgaon,Full Stack Developer,https://www.eclerx.com/careers
+HR Team,careers@evalueserve.com,,Evalueserve,Gurgaon,Full Stack Developer,https://www.evalueserve.com/careers
+HR Team,hr@absolutedata.com,,Absolute Data,Gurgaon,Full Stack Developer,https://www.absolutedata.com/careers
+HR Team,careers@fractal.ai,,Fractal Analytics,Gurgaon,Full Stack Developer,https://fractal.ai/careers
+HR Team,hr@mu-sigma.com,,Mu Sigma,Gurgaon,Full Stack Developer,https://www.mu-sigma.com/careers
+HR Team,careers@latentview.com,,LatentView Analytics,Delhi,Full Stack Developer,https://www.latentview.com/careers
+HR Team,hr@cloudleaf.io,,Cloudleaf,Noida,Full Stack Developer,https://cloudleaf.io/careers
+HR Team,careers@savvycom.vn,,Savvycom,Noida,Full Stack Developer,https://savvycomsoftware.com/careers
+HR Team,hr@kellton.com,,Kellton Tech,Delhi,Full Stack Developer,https://www.kellton.com/careers
+HR Team,careers@netsoltech.com,,NetSol Technologies,Lahore/Gurgaon,Full Stack Developer,https://netsoltech.com/careers
+HR Team,hr@tata-elxsi.com,,Tata Elxsi,Gurgaon,Full Stack Developer,https://www.tataelxsi.com/careers
+HR Team,careers@kpit.com,,KPIT Technologies,Gurgaon,Full Stack Developer,https://www.kpit.com/careers
+HR Team,hr@exlservice.com,,EXL Service,Noida,Full Stack Developer,https://www.exlservice.com/careers
+HR Team,careers@wns.com,,WNS Global Services,Gurgaon,Full Stack Developer,https://www.wns.com/careers
+HR Team,hr@syntel.com,,Atos Syntel,Noida,Full Stack Developer,https://atos.net/en/careers
+HR Team,careers@incedo.com,,Incedo Inc.,Gurgaon,Full Stack Developer,https://www.incedoinc.com/careers
+HR Team,hr@stefanini.com,,Stefanini India,Noida,Full Stack Developer,https://stefanini.com/en/careers
+HR Team,careers@xchanging.com,,DXC Xchanging,Gurgaon,Full Stack Developer,https://careers.dxc.com
+HR Team,hr@sonata-software.com,,Sonata Software,Delhi,Full Stack Developer,https://www.sonata-software.com/careers
+HR Team,careers@softsolutions.co.in,,SoftSolutions Technology,Noida,Full Stack Developer,https://www.softsolutionsindia.com/careers
+HR Team,hr@sify.com,,Sify Technologies,Noida,Full Stack Developer,https://www.sifytechnologies.com/careers
+HR Team,careers@stpi.in,,STPI (Govt IT),Noida,Web Developer,https://www.stpi.in/careers
+HR Team,hr@nic.in,,NIC (National Informatics Centre),Delhi,Web Developer,https://www.nic.in/careers
+HR Team,careers@cdac.in,,C-DAC,Noida,Full Stack Developer,https://www.cdac.in/careers
+HR Team,hr@elcot.com,,ELCOT,Delhi,Web Developer,https://www.elcot.in/careers
+HR Team,careers@itc-infotech.com,,ITC Infotech,Gurgaon,Full Stack Developer,https://www.itcinfotech.com/careers
+HR Team,hr@reliance-jio.com,,Jio Platforms,Noida,Full Stack Developer,https://www.jio.com/en-in/careers
+HR Team,careers@airtelxlabs.com,,Airtel X Labs,Gurgaon,Full Stack Developer,https://www.airtel.in/careers
+HR Team,hr@vodafoneidea.com,,Vodafone Idea Tech,Gurgaon,Web Developer,https://www.myvi.in/careers
+HR Team,careers@bsnl.co.in,,BSNL IT,Delhi,Web Developer,https://www.bsnl.co.in/careers
+HR Team,hr@idea-re.com,,ideaRe,Gurgaon,Full Stack Developer,https://www.idea-re.co.in/careers
+HR Team,careers@tatacommunications.com,,Tata Communications,Gurgaon,Full Stack Developer,https://www.tatacommunications.com/careers
+HR Team,hr@spectranet.in,,Spectranet,Noida,Web Developer,https://www.spectranet.in/careers
+HR Team,careers@tikona.in,,Tikona Infinet,Gurgaon,Web Developer,https://www.tikona.in/careers
+HR Team,hr@hfcl.com,,HFCL Limited,Gurgaon,Web Developer,https://www.hfcl.com/careers
+HR Team,careers@sttelemedia.com,,ST Telemedia,Gurgaon,Web Developer,https://www.sttelemediagdc.com/careers
+HR Team,hr@web18.com,,Web18 (Network18),Noida,Web Developer,https://www.network18online.com/careers
+HR Team,careers@tv18.com,,TV18/CNN-News18 Digital,Noida,Full Stack Developer,https://www.network18online.com/careers
+HR Team,hr@ndtv.com,,NDTV Digital,Delhi,Full Stack Developer,https://www.ndtv.com/jobs
+HR Team,careers@hindustantimes.com,,Hindustan Times Digital,Delhi,Full Stack Developer,https://www.hindustantimes.com/careers
+HR Team,hr@thehindu.com,,The Hindu Digital,Delhi,Web Developer,https://www.thehindu.com/careers
+HR Team,careers@indiatimes.com,,India Times (Times Internet),Noida,Full Stack Developer,https://timesinternet.in/careers
+HR Team,hr@amarujala.com,,Amar Ujala Digital,Noida,Web Developer,https://www.amarujala.com/careers
+HR Team,careers@jagran.com,,Jagran New Media,Noida,Web Developer,https://www.jagran.com/careers
+HR Team,hr@dainikbhaskar.com,,Dainik Bhaskar Digital,Delhi,Web Developer,https://www.bhaskar.com/careers
+HR Team,careers@zeenews.com,,Zee News Digital,Noida,Full Stack Developer,https://www.zeemedia.in/careers
+HR Team,hr@abplive.com,,ABP Live Digital,Noida,Web Developer,https://news.abplive.com/careers
+HR Team,careers@scoopwhoop.com,,ScoopWhoop,Delhi,Full Stack Developer,https://scoopwhoop.com/careers
+HR Team,hr@thequint.com,,The Quint,Delhi,Full Stack Developer,https://www.thequint.com/careers
+HR Team,careers@factordaily.com,,FactorDaily,Delhi,Web Developer,https://factordaily.com/careers
+HR Team,hr@yourstory.com,,YourStory,Delhi,Full Stack Developer,https://yourstory.com/careers
+HR Team,careers@inc42.com,,Inc42 Media,Delhi,Full Stack Developer,https://inc42.com/careers
+HR Team,hr@entrackr.com,,Entrackr,Delhi,Web Developer,https://entrackr.com/careers
+HR Team,careers@techcircle.in,,TechCircle,Delhi,Web Developer,https://techcircle.vccircle.com/careers
+HR Team,hr@vccircle.com,,VCCircle,Delhi,Web Developer,https://www.vccircle.com/careers
+HR Team,careers@dealstreetasia.com,,DealStreetAsia,Gurgaon,Web Developer,https://www.dealstreetasia.com/careers
+HR Team,hr@tracxn.com,,Tracxn,Gurgaon,Full Stack Developer,https://tracxn.com/careers
+HR Team,careers@venture-intelligence.com,,Venture Intelligence,Delhi,Web Developer,https://www.venture-intelligence.com/careers
+HR Team,hr@nasscom.in,,NASSCOM,Noida,Web Developer,https://www.nasscom.in/careers
+HR Team,careers@digitalindiacorporation.in,,Digital India Corporation,Delhi,Full Stack Developer,https://digitalindiacorporation.in/careers
+HR Team,hr@meity.gov.in,,MeitY (Govt),Delhi,Web Developer,https://www.meity.gov.in/careers
+HR Team,careers@digilocker.gov.in,,DigiLocker Team,Delhi,Full Stack Developer,https://www.digilocker.gov.in/careers
+HR Team,hr@umang.gov.in,,UMANG Platform,Delhi,Full Stack Developer,https://web.umang.gov.in/landing/careers
+HR Team,careers@indiagov.in,,MyGov Technology,Delhi,Web Developer,https://www.mygov.in/careers
+HR Team,hr@ecourts.gov.in,,eCourts Project,Delhi,Web Developer,https://ecourts.gov.in/careers
+HR Team,careers@data.gov.in,,Open Government Data,Delhi,Full Stack Developer,https://data.gov.in/careers
+HR Team,hr@uidai.gov.in,,UIDAI (Aadhaar),Delhi,Full Stack Developer,https://uidai.gov.in/careers
+HR Team,careers@npci.org.in,,NPCI (UPI),Delhi,Full Stack Developer,https://www.npci.org.in/careers
+HR Team,hr@rbi.org.in,,RBI IT Cell,Delhi,Full Stack Developer,https://www.rbi.org.in/Scripts/Careers.aspx
+HR Team,careers@sebi.gov.in,,SEBI Technology,Delhi,Full Stack Developer,https://www.sebi.gov.in/careers
+HR Team,hr@irctc.co.in,,IRCTC,Delhi,Full Stack Developer,https://www.irctc.co.in/nget/train-search
+HR Team,careers@railtel.in,,RailTel Corporation,Delhi,Full Stack Developer,https://www.railtel.in/careers
+HR Team,hr@tcil-india.com,,TCIL,Delhi,Web Developer,https://www.tcil-india.com/careers
+HR Team,careers@cmet.gov.in,,CMET,Ghaziabad,Full Stack Developer,https://cmet.gov.in/careers
+HR Team,hr@sameer.gov.in,,SAMEER,Delhi,Web Developer,https://www.sameer.gov.in/careers
+HR Team,careers@nrdc.in,,NRDC,Delhi,Web Developer,https://nrdcindia.com/careers
+HR Team,hr@csir.res.in,,CSIR IT Division,Delhi,Full Stack Developer,https://www.csir.res.in/careers
+HR Team,careers@drdo.gov.in,,DRDO IT Cell,Delhi,Full Stack Developer,https://www.drdo.gov.in/careers
+HR Team,hr@isro.gov.in,,ISRO IT,Delhi,Full Stack Developer,https://www.isro.gov.in/careers.html
+HR Team,careers@ntpc.co.in,,NTPC Digital,Noida,Full Stack Developer,https://www.ntpc.co.in/careers
+HR Team,hr@powergrid.in,,PowerGrid IT,Gurgaon,Web Developer,https://www.powergridindia.com/careers
+HR Team,careers@gail.co.in,,GAIL Digital,Noida,Web Developer,https://www.gailonline.com/careers
+HR Team,hr@ongc.co.in,,ONGC IT,Delhi,Web Developer,https://www.ongcindia.com/careers
+HR Team,careers@bhel.in,,BHEL IT,Delhi,Web Developer,https://www.bhel.com/careers
+HR Team,hr@sail.co.in,,SAIL IT,Delhi,Web Developer,https://www.sail.co.in/careers
+HR Team,careers@nalco.gov.in,,NALCO IT,Delhi,Web Developer,https://nalcoindia.com/careers
+HR Team,hr@concur.com,,SAP Concur,Gurgaon,Full Stack Developer,https://www.concur.com/careers
+HR Team,careers@servicenow.com,,ServiceNow India,Gurgaon,Full Stack Developer,https://www.servicenow.com/careers
+HR Team,hr@salesforce.com,,Salesforce India,Gurgaon,Full Stack Developer,https://www.salesforce.com/company/careers
+HR Team,careers@workday.com,,Workday India,Gurgaon,Full Stack Developer,https://www.workday.com/en-us/company/careers
+HR Team,hr@adobe.com,,Adobe India,Noida,Full Stack Developer,https://www.adobe.com/careers.html
+HR Team,careers@autodesk.com,,Autodesk India,Gurgaon,Full Stack Developer,https://www.autodesk.com/careers
+HR Team,hr@ptc.com,,PTC India,Gurgaon,Full Stack Developer,https://www.ptc.com/en/careers
+HR Team,careers@ansys.com,,ANSYS India,Gurgaon,Full Stack Developer,https://www.ansys.com/careers
+HR Team,hr@siemens.com,,Siemens Digital,Gurgaon,Full Stack Developer,https://www.siemens.com/in/en/company/jobs.html
+HR Team,careers@honeywell.com,,Honeywell India,Gurgaon,Full Stack Developer,https://careers.honeywell.com
+HR Team,hr@ge.com,,GE Digital India,Gurgaon,Full Stack Developer,https://jobs.gecareers.com
+HR Team,careers@bosch.com,,Bosch India,Delhi,Full Stack Developer,https://www.bosch.in/careers
+HR Team,hr@schneider-electric.com,,Schneider Electric,Gurgaon,Full Stack Developer,https://careers.se.com
+HR Team,careers@amdocs.com,,Amdocs,Gurgaon,Full Stack Developer,https://www.amdocs.com/careers
+HR Team,hr@akamai.com,,Akamai Technologies,Gurgaon,Full Stack Developer,https://www.akamai.com/careers
+HR Team,careers@vmware.com,,VMware India,Gurgaon,Full Stack Developer,https://careers.vmware.com
+HR Team,hr@paloaltonetworks.com,,Palo Alto Networks,Gurgaon,Full Stack Developer,https://jobs.paloaltonetworks.com
+HR Team,careers@crowdstrike.com,,CrowdStrike India,Gurgaon,Full Stack Developer,https://www.crowdstrike.com/careers
+HR Team,hr@mcafee.com,,Trellix (McAfee),Gurgaon,Full Stack Developer,https://www.trellix.com/careers
+HR Team,careers@symantec.com,,Broadcom (Symantec),Gurgaon,Full Stack Developer,https://careers.broadcom.com
+HR Team,hr@f5.com,,F5 Networks India,Gurgaon,Full Stack Developer,https://www.f5.com/company/careers
+HR Team,careers@fortinet.com,,Fortinet India,Gurgaon,Full Stack Developer,https://www.fortinet.com/corporate/careers
+HR Team,hr@checkpoint.com,,Check Point India,Gurgaon,Full Stack Developer,https://www.checkpoint.com/careers
+HR Team,careers@fireeye.com,,Mandiant India,Gurgaon,Full Stack Developer,https://www.mandiant.com/company/careers
+HR Team,hr@tenable.com,,Tenable India,Gurgaon,Full Stack Developer,https://www.tenable.com/careers
+HR Team,careers@rapid7.com,,Rapid7 India,Gurgaon,Full Stack Developer,https://www.rapid7.com/company/careers
+HR Team,hr@qualys.com,,Qualys India,Noida,Full Stack Developer,https://www.qualys.com/company/careers
+HR Team,careers@sophos.com,,Sophos India,Delhi,Full Stack Developer,https://www.sophos.com/en-us/company/jobs
+HR Team,hr@kaspersky.com,,Kaspersky India,Delhi,Full Stack Developer,https://www.kaspersky.co.in/careers
+HR Team,careers@cyberoam.com,,Sophos Cyberoam,Delhi,Full Stack Developer,https://www.sophos.com/en-us/company/jobs
+HR Team,hr@quickheal.com,,Quick Heal Technologies,Delhi,Full Stack Developer,https://www.quickheal.co.in/careers
+HR Team,careers@escanav.com,,eScan,Noida,Full Stack Developer,https://www.escanav.com/careers
+HR Team,hr@tataelxsi.com,,Tata Elxsi,Delhi,Full Stack Developer,https://www.tataelxsi.com/careers
+HR Team,careers@hexion.com,,Hexion India,Noida,Web Developer,https://www.hexion.com/careers
+HR Team,hr@brightcove.com,,Brightcove India,Noida,Full Stack Developer,https://www.brightcove.com/en/careers
+HR Team,careers@akamai.com,,Akamai Technologies,Noida,Full Stack Developer,https://www.akamai.com/careers
+HR Team,hr@verizon.com,,Verizon India,Gurgaon,Full Stack Developer,https://careers.verizon.com
+HR Team,careers@at-t.com,,AT&T India,Gurgaon,Full Stack Developer,https://www.att.jobs
+HR Team,hr@comcast.com,,Comcast India,Gurgaon,Full Stack Developer,https://careers.comcast.com
+HR Team,careers@dell.com,,Dell Technologies India,Gurgaon,Full Stack Developer,https://jobs.dell.com
+HR Team,hr@hp.com,,HP Inc India,Gurgaon,Full Stack Developer,https://jobs.hp.com
+HR Team,careers@hpe.com,,Hewlett Packard Enterprise,Gurgaon,Full Stack Developer,https://h30631.www3.hpe.com/careers
+HR Team,hr@lenovo.com,,Lenovo India,Gurgaon,Full Stack Developer,https://jobs.lenovo.com
+HR Team,careers@fujitsu.com,,Fujitsu India,Gurgaon,Full Stack Developer,https://www.fujitsu.com/global/about/careers
+HR Team,hr@hitachi.com,,Hitachi India,Gurgaon,Full Stack Developer,https://www.hitachivantara.com/en-us/company/careers
+HR Team,careers@nec.com,,NEC India,Gurgaon,Full Stack Developer,https://www.nec.com/en/global/careers
+HR Team,hr@panasonic.com,,Panasonic India,Gurgaon,Web Developer,https://www.panasonic.com/in/corporate/careers.html
+HR Team,careers@mitsubishi.com,,Mitsubishi Electric India,Gurgaon,Web Developer,https://www.mitsubishielectric.com/careers
+HR Team,hr@toshiba.com,,Toshiba India,Delhi,Web Developer,https://www.toshiba.co.jp/worldwide/careers
+HR Team,careers@ntt.com,,NTT Ltd India,Gurgaon,Full Stack Developer,https://services.global.ntt/en-us/careers
+HR Team,hr@softbank.com,,SoftBank India,Gurgaon,Full Stack Developer,https://group.softbank/en/career
+HR Team,careers@rakuten.com,,Rakuten India,Delhi,Full Stack Developer,https://global.rakuten.com/corp/careers
+HR Team,hr@seagate.com,,Seagate India,Gurgaon,Web Developer,https://jobs.seagate.com
+HR Team,careers@westerndigital.com,,Western Digital India,Gurgaon,Full Stack Developer,https://jobs.westerndigital.com
+HR Team,hr@micron.com,,Micron Technology India,Gurgaon,Full Stack Developer,https://jobs.micron.com
+HR Team,careers@nvidia.com,,NVIDIA India,Gurgaon,Full Stack Developer,https://www.nvidia.com/en-us/about-nvidia/careers
+HR Team,hr@amd.com,,AMD India,Gurgaon,Full Stack Developer,https://jobs.amd.com
+HR Team,careers@arm.com,,ARM Holdings India,Gurgaon,Full Stack Developer,https://careers.arm.com
+HR Team,hr@broadcom.com,,Broadcom India,Gurgaon,Full Stack Developer,https://careers.broadcom.com
+HR Team,careers@marvell.com,,Marvell Technology India,Gurgaon,Full Stack Developer,https://jobs.marvell.com
+HR Team,hr@xilinx.com,,AMD Xilinx India,Gurgaon,Full Stack Developer,https://jobs.amd.com
+HR Team,careers@ti.com,,Texas Instruments India,Gurgaon,Full Stack Developer,https://careers.ti.com
+HR Team,hr@analog.com,,Analog Devices India,Gurgaon,Full Stack Developer,https://careers.analog.com
+HR Team,careers@nxp.com,,NXP Semiconductors India,Gurgaon,Full Stack Developer,https://careers.nxp.com
+HR Team,hr@microchip.com,,Microchip Technology India,Noida,Full Stack Developer,https://careers.microchip.com
+HR Team,careers@renesas.com,,Renesas Electronics India,Gurgaon,Web Developer,https://www.renesas.com/us/en/about/careers
+HR Team,hr@infineon.com,,Infineon Technologies India,Gurgaon,Full Stack Developer,https://www.infineon.com/cms/en/careers
+HR Team,careers@stmicro.com,,STMicroelectronics India,Noida,Full Stack Developer,https://www.st.com/content/st_com/en/about/careers
+HR Team,hr@murata.com,,Murata India,Gurgaon,Web Developer,https://www.murata.com/en-global/about/career
+HR Team,careers@vishay.com,,Vishay India,Gurgaon,Web Developer,https://www.vishay.com/company/careers
+HR Team,hr@mouser.com,,Mouser Electronics India,Gurgaon,Web Developer,https://www.mouser.in/about/careers
+HR Team,careers@digi-key.com,,Digi-Key India,Gurgaon,Web Developer,https://www.digikey.com/en/resources/careers
+HR Team,hr@arrow.com,,Arrow Electronics India,Gurgaon,Full Stack Developer,https://www.arrow.com/en/careers
+HR Team,careers@avnet.com,,Avnet India,Gurgaon,Full Stack Developer,https://www.avnet.com/wps/portal/us/about/careers
+HR Team,hr@ingram-micro.com,,Ingram Micro India,Gurgaon,Web Developer,https://jobs.ingrammicro.com
+HR Team,careers@synnex.com,,TD SYNNEX India,Gurgaon,Web Developer,https://jobs.synnex.com
+HR Team,hr@techdata.com,,TD SYNNEX (Tech Data),Gurgaon,Web Developer,https://jobs.synnex.com
+HR Team,careers@cdw.com,,CDW India,Gurgaon,Web Developer,https://www.cdw.com/content/cdw/en/careers
+HR Team,hr@slalom.com,,Slalom India,Gurgaon,Full Stack Developer,https://www.slalom.com/careers
+HR Team,careers@boozallen.com,,Booz Allen Hamilton India,Gurgaon,Full Stack Developer,https://www.boozallen.com/careers
+HR Team,hr@leidos.com,,Leidos India,Gurgaon,Full Stack Developer,https://www.leidos.com/careers
+HR Team,careers@saic.com,,SAIC India,Delhi,Full Stack Developer,https://www.saic.com/careers
+HR Team,hr@raytheon.com,,Raytheon Technologies India,Gurgaon,Full Stack Developer,https://jobs.rtx.com
+HR Team,careers@baesystems.com,,BAE Systems India,Gurgaon,Full Stack Developer,https://www.baesystems.com/en/careers
+HR Team,hr@lockheedmartin.com,,Lockheed Martin India,Gurgaon,Full Stack Developer,https://www.lockheedmartin.com/en-us/careers
+HR Team,careers@northropgrumman.com,,Northrop Grumman India,Gurgaon,Full Stack Developer,https://www.northropgrumman.com/careers
+HR Team,hr@l3harris.com,,L3Harris Technologies India,Gurgaon,Full Stack Developer,https://careers.l3harris.com
+HR Team,careers@thalesgroup.com,,Thales India,Gurgaon,Full Stack Developer,https://www.thalesgroup.com/en/careers
+HR Team,hr@safran.com,,Safran India,Gurgaon,Full Stack Developer,https://www.safran-group.com/careers
+HR Team,careers@airbus.com,,Airbus India,Delhi,Full Stack Developer,https://www.airbus.com/en/careers
+HR Team,hr@boeing.com,,Boeing India,Gurgaon,Full Stack Developer,https://jobs.boeing.com
+HR Team,careers@ge-aviation.com,,GE Aviation India,Gurgaon,Full Stack Developer,https://jobs.gecareers.com
+HR Team,hr@rolls-royce.com,,Rolls-Royce India,Gurgaon,Full Stack Developer,https://careers.rolls-royce.com
+HR Team,careers@pratt-whitney.com,,Pratt & Whitney India,Gurgaon,Full Stack Developer,https://jobs.rtx.com
+HR Team,hr@gatewaygroup.in,,Gateway Group,Noida,Web Developer,https://www.gatewaygroup.in/careers
+HR Team,careers@newgen.co,,Newgen Software,Noida,Full Stack Developer,https://newgensoft.com/company/careers
+HR Team,hr@reltio.com,,Reltio,Gurgaon,Full Stack Developer,https://www.reltio.com/company/careers
+HR Team,careers@ginesys.in,,Ginesys,Gurgaon,Full Stack Developer,https://www.ginesys.in/careers
+HR Team,hr@denave.com,,Denave,Noida,Full Stack Developer,https://www.denave.com/careers
+HR Team,careers@sahi.io,,Sahi Pro,Noida,Full Stack Developer,https://sahipro.com/careers
+HR Team,hr@talentica.com,,Talentica Software,Noida,Full Stack Developer,https://www.talentica.com/careers
+HR Team,careers@tothenew.com,,To The New Digital,Noida,Full Stack Developer,https://www.tothenew.com/careers
+HR Team,hr@systechgroup.in,,Systech IT Group,Noida,Web Developer,https://systechgroup.in/careers
+HR Team,careers@compuage.co.in,,Compuage Infocom,Noida,Web Developer,https://compuage.co.in/careers
+HR Team,hr@etechaces.com,,Etech Aces,Noida,Web Developer,https://etechaces.com/careers
+HR Team,careers@primus.com,,Primus Global,Gurgaon,Full Stack Developer,https://www.primusglobal.com/careers
+HR Team,hr@systematix.co.in,,Systematix Infotech,Noida,Full Stack Developer,https://www.systematixinfotech.com/careers
+HR Team,careers@ssi.in,,Software Systems Inc.,Delhi,Full Stack Developer,https://www.ssi.in/careers
+HR Team,hr@infobeanstech.com,,InfoBeans Technologies,Delhi,Full Stack Developer,https://www.infobeans.com/careers
+HR Team,careers@netsolutions.com,,Net Solutions,Noida,Full Stack Developer,https://www.netsolutions.com/careers
+HR Team,hr@binaryit.com.au,,Binary IT,Noida,Full Stack Developer,https://binaryit.com.au/careers
+HR Team,careers@crownstack.com,,Crownstack Technologies,Gurgaon,Full Stack Developer,https://crownstack.com/careers
+HR Team,hr@appinventiv.com,,Appinventiv,Noida,Full Stack Developer,https://appinventiv.com/career
+HR Team,careers@quytech.com,,Quytech,Noida,Full Stack Developer,https://www.quytech.com/careers
+HR Team,hr@iwebservices.in,,iWebServices,Noida,Full Stack Developer,https://www.iwebservices.in/careers
+HR Team,careers@onlineinfatuation.com,,Online Infatuation,Noida,Web Developer,https://onlineinfatuation.com/careers
+HR Team,hr@technoloader.com,,Technoloader,Noida,Full Stack Developer,https://www.technoloader.com/careers
+HR Team,careers@rlogical.com,,RLogical Techsoft,Noida,Full Stack Developer,https://www.rlogical.com/careers
+HR Team,hr@zaigo-infotech.com,,Zaigo Infotech,Noida,Full Stack Developer,https://www.zaigoinfotech.com/careers
+HR Team,careers@emizentech.com,,Emizentech,Noida,Full Stack Developer,https://www.emizentech.com/careers
+HR Team,hr@pixbit-solutions.com,,PixBit Solutions,Noida,Full Stack Developer,https://www.pixbitsolutions.com/careers
+HR Team,careers@brainvire.com,,Brainvire Infotech,Noida,Full Stack Developer,https://www.brainvire.com/careers
+HR Team,hr@mindster.com,,Mindster,Noida,Full Stack Developer,https://www.mindster.com/careers
+HR Team,careers@techieray.com,,TechieRay,Noida,Full Stack Developer,https://techieray.com/careers
+HR Team,hr@sapphiresolutions.net,,Sapphire Solutions,Delhi,Full Stack Developer,https://www.sapphiresolutions.net/careers
+HR Team,careers@ixbsolutions.com,,IXB Solutions,Delhi,Full Stack Developer,https://www.ixbsolutions.com/careers
+HR Team,hr@qservicesit.com,,Qservices IT,Gurgaon,Full Stack Developer,https://www.qservicesit.com/careers
+HR Team,careers@technothinksup.com,,TechnoThinksUp,Noida,Full Stack Developer,https://technothinksup.com/careers
+HR Team,hr@ropstam.com,,Ropstam Solutions,Noida,Full Stack Developer,https://www.ropstam.com/careers
+HR Team,careers@cubix.co,,Cubix,Noida,Full Stack Developer,https://cubix.co/careers
+HR Team,hr@konstant.com,,Konstant Infosolutions,Delhi,Full Stack Developer,https://www.konstantinfo.com/careers
+HR Team,careers@monocept.com,,Monocept,Noida,Full Stack Developer,https://monocept.com/careers
+HR Team,hr@axiaorigin.com,,Axia Origin,Delhi,Full Stack Developer,https://axiaorigin.com/careers
+HR Team,careers@hashcodeit.com,,Hashcode IT Solutions,Noida,Web Developer,https://hashcodeit.com/careers
+HR Team,hr@webcoder.co,,WebCoder,Gurgaon,Full Stack Developer,https://webcoder.co/careers
+HR Team,careers@daffodilsw.com,,Daffodil Software,Gurgaon,Full Stack Developer,https://daffodilsw.com/careers
+HR Team,hr@techahead.com,,TechAhead,Noida,Full Stack Developer,https://www.techahead.com/careers
+HR Team,careers@systango.com,,Systango,Noida,Full Stack Developer,https://www.systango.com/careers
+HR Team,hr@valuecoders.com,,ValueCoders,Noida,Full Stack Developer,https://www.valuecoders.com/careers
+HR Team,careers@bacancytechnology.com,,Bacancy Technology,Noida,Full Stack Developer,https://www.bacancytechnology.com/careers
+HR Team,hr@techuz.com,,Techuz,Noida,Full Stack Developer,https://www.techuz.com/careers
+HR Team,careers@mobisoft-infotech.com,,Mobisoft Infotech,Noida,Full Stack Developer,https://mobisoftinfotech.com/careers
+HR Team,hr@rapidops.com,,Rapidops,Noida,Full Stack Developer,https://rapidops.com/careers
+HR Team,careers@biz4group.com,,Biz4Group,Noida,Full Stack Developer,https://biz4group.com/careers
+HR Team,hr@sphinx-solution.com,,Sphinx Solutions,Delhi,Full Stack Developer,https://www.sphinx-solution.com/careers
+HR Team,careers@mobileware.co.in,,Mobileware Technologies,Noida,Full Stack Developer,https://mobileware.co.in/careers
+HR Team,hr@hiddenbrains.com,,Hidden Brains InfoTech,Delhi,Full Stack Developer,https://www.hiddenbrains.com/careers.html
+HR Team,careers@smartsight.in,,SmartSight Innovations,Noida,Full Stack Developer,https://smartsight.in/careers
+HR Team,hr@affle.com,,Affle,Gurgaon,Full Stack Developer,https://affle.com/careers
+HR Team,careers@inmobi.com,,InMobi,Gurgaon,Full Stack Developer,https://www.inmobi.com/careers
+HR Team,hr@vserv.com,,Vserv Digital,Delhi,Full Stack Developer,https://vserv.com/careers
+HR Team,careers@tyroo.com,,Tyroo Media,Gurgaon,Full Stack Developer,https://tyroo.com/careers
+HR Team,hr@sharechat.com,,ShareChat,Gurgaon,Full Stack Developer,https://sharechat.com/careers
+HR Team,careers@moj.live,,Moj (ShareChat),Gurgaon,Full Stack Developer,https://sharechat.com/careers
+HR Team,hr@dailyhunt.com,,Dailyhunt,Gurgaon,Full Stack Developer,https://www.dailyhunt.in/careers
+HR Team,careers@verse.in,,Verse Innovation,Gurgaon,Full Stack Developer,https://www.verse.in/careers
+HR Team,hr@lokal.app,,Lokal App,Gurgaon,Full Stack Developer,https://www.lokal.app/careers
+HR Team,careers@koo.com,,Koo App,Delhi,Full Stack Developer,https://www.koo.com/careers
+HR Team,hr@chingari.io,,Chingari,Delhi,Full Stack Developer,https://chingari.io/careers
+HR Team,careers@mxtakatak.com,,MX TakaTak,Noida,Full Stack Developer,https://www.mxtakatak.com/careers
+HR Team,hr@roposo.com,,Roposo (InMobi),Gurgaon,Full Stack Developer,https://www.inmobi.com/careers
+HR Team,careers@josh.app,,Josh (DailyHunt),Gurgaon,Full Stack Developer,https://www.dailyhunt.in/careers
+HR Team,hr@clipclaps.com,,ClipClaps,Noida,Full Stack Developer,https://clipclaps.com/careers
+HR Team,careers@hipi.co.in,,HIPI (Star India),Delhi,Full Stack Developer,https://hipi.co.in/careers
+HR Team,hr@dreamfoundry.in,,Dream Foundry,Noida,Full Stack Developer,https://dreamfoundry.in/careers
+HR Team,careers@toppr.com,,Toppr (BYJU'S),Delhi,Full Stack Developer,https://www.toppr.com/careers
+HR Team,hr@extramarks.com,,Extramarks Education,Noida,Full Stack Developer,https://www.extramarks.com/careers
+HR Team,careers@embibe.com,,Embibe,Delhi,Full Stack Developer,https://www.embibe.com/careers
+HR Team,hr@simplilearn.com,,Simplilearn,Gurgaon,Full Stack Developer,https://www.simplilearn.com/careers
+HR Team,careers@upgrad.com,,upGrad,Delhi,Full Stack Developer,https://careers.upgrad.com
+HR Team,hr@great-learning.com,,Great Learning,Gurgaon,Full Stack Developer,https://www.mygreatlearning.com/careers
+HR Team,careers@eruditus.com,,Eruditus,Delhi,Full Stack Developer,https://eruditus.com/careers
+HR Team,hr@emeritus.org,,Emeritus,Gurgaon,Full Stack Developer,https://emeritus.org/careers
+HR Team,careers@jaro.in,,Jaro Education,Delhi,Full Stack Developer,https://www.jaroeducation.com/careers
+HR Team,hr@imarticus.org,,Imarticus Learning,Delhi,Full Stack Developer,https://imarticus.org/careers
+HR Team,careers@henryharvard.com,,Henry Harvin Education,Delhi,Web Developer,https://www.henryharvin.com/careers
+HR Team,hr@niit.com,,NIIT Limited,Gurgaon,Full Stack Developer,https://www.niit.com/careers
+HR Team,careers@aptech.com,,Aptech Limited,Noida,Web Developer,https://www.aptech-education.com/careers
+HR Team,hr@arena-multimedia.com,,Arena Animation,Noida,Web Developer,https://www.arena-multimedia.com/careers
+HR Team,careers@jetking.com,,Jetking Infotrain,Delhi,Web Developer,https://www.jetking.com/careers
+HR Team,hr@sikho.com,,Sikho,Noida,Full Stack Developer,https://sikho.com/careers
+HR Team,careers@internshala.com,,Internshala,Gurgaon,Internship/Full Stack,https://internshala.com/careers
+HR Team,hr@letsintern.com,,LetsIntern,Delhi,Internship,https://www.letsintern.com/careers
+HR Team,careers@hiree.com,,Hiree,Noida,Internship/Full Stack,https://hiree.com/careers
+HR Team,hr@indeed.com,,Indeed India,Gurgaon,Full Stack Developer,https://indeed.com/careers
+HR Team,careers@linkedin.com,,LinkedIn India,Gurgaon,Full Stack Developer,https://careers.linkedin.com
+HR Team,hr@glassdoor.com,,Glassdoor India,Gurgaon,Full Stack Developer,https://www.glassdoor.com/careers
+HR Team,careers@angellist.com,,AngelList India,Delhi,Full Stack Developer,https://angel.co/careers
+HR Team,hr@techgig.com,,TechGig,Noida,Full Stack Developer,https://www.techgig.com/careers
+HR Team,careers@hackerearth.com,,HackerEarth,Delhi,Full Stack Developer,https://www.hackerearth.com/careers
+HR Team,hr@hackerrank.com,,HackerRank India,Gurgaon,Full Stack Developer,https://www.hackerrank.com/careers
+HR Team,careers@codingninjas.com,,Coding Ninjas,Delhi,Full Stack Developer,https://www.codingninjas.com/careers
+HR Team,hr@codechef.com,,CodeChef (Unacademy),Gurgaon,Full Stack Developer,https://www.codechef.com/careers
+HR Team,careers@geeksforgeeks.com,,GeeksForGeeks,Noida,Full Stack Developer,https://www.geeksforgeeks.org/careers
+HR Team,hr@scaler.com,,Scaler Academy,Gurgaon,Full Stack Developer,https://www.scaler.com/careers
+HR Team,careers@almabetter.com,,AlmaBetter,Noida,Full Stack Developer,https://www.almabetter.com/careers
+HR Team,hr@masaischool.com,,Masai School,Delhi,Full Stack Developer,https://www.masaischool.com/careers
+HR Team,careers@pesto.tech,,Pesto Tech,Delhi,Full Stack Developer,https://pesto.tech/careers
+HR Team,hr@outscal.com,,Outscal,Delhi,Full Stack Developer,https://outscal.com/careers
+HR Team,careers@lambdatest.com,,LambdaTest,Noida,Full Stack Developer,https://www.lambdatest.com/careers
+HR Team,hr@testbook.com,,Testbook,Noida,Full Stack Developer,https://testbook.com/careers
+HR Team,careers@adda247.com,,Adda247,Delhi,Full Stack Developer,https://www.adda247.com/careers
+HR Team,hr@safalta.com,,Safalta,Noida,Full Stack Developer,https://www.safalta.com/careers
+HR Team,careers@pw.live,,PW (PhysicsWallah),Noida,Full Stack Developer,https://pw.live/careers
+HR Team,hr@doubtnut.com,,Doubtnut,Noida,Full Stack Developer,https://doubtnut.com/careers
+HR Team,careers@gradeup.co,,BYJU'S Exam Prep,Noida,Full Stack Developer,https://byjusexamprep.com/careers
+HR Team,hr@oliveboard.in,,Oliveboard,Delhi,Full Stack Developer,https://www.oliveboard.in/careers
+HR Team,careers@careerwill.com,,CareerWill,Delhi,Web Developer,https://www.careerwill.com/careers
+HR Team,hr@wifistudy.com,,wifistudy (Unacademy),Jaipur/Delhi,Web Developer,https://unacademy.com/careers
+HR Team,careers@grammarly.com,,Grammarly India,Gurgaon,Full Stack Developer,https://www.grammarly.com/jobs
+HR Team,hr@notion.so,,Notion India,Gurgaon,Full Stack Developer,https://www.notion.so/careers
+HR Team,careers@figma.com,,Figma India,Gurgaon,Full Stack Developer,https://www.figma.com/careers
+HR Team,hr@miro.com,,Miro India,Gurgaon,Full Stack Developer,https://miro.com/careers
+HR Team,careers@slack.com,,Slack (Salesforce),Gurgaon,Full Stack Developer,https://slack.com/careers
+HR Team,hr@atlassian.com,,Atlassian India,Gurgaon,Full Stack Developer,https://www.atlassian.com/company/careers
+HR Team,careers@github.com,,GitHub India,Gurgaon,Full Stack Developer,https://github.com/about/careers
+HR Team,hr@gitlab.com,,GitLab India,Gurgaon,Full Stack Developer,https://about.gitlab.com/jobs
+HR Team,careers@bitbucket.com,,Bitbucket (Atlassian),Gurgaon,Full Stack Developer,https://www.atlassian.com/company/careers
+HR Team,hr@jira.com,,Jira (Atlassian),Gurgaon,Full Stack Developer,https://www.atlassian.com/company/careers
+HR Team,careers@trello.com,,Trello (Atlassian),Gurgaon,Full Stack Developer,https://www.atlassian.com/company/careers
+HR Team,hr@asana.com,,Asana India,Gurgaon,Full Stack Developer,https://asana.com/jobs
+HR Team,careers@monday.com,,Monday.com India,Gurgaon,Full Stack Developer,https://monday.com/careers
+HR Team,hr@clickup.com,,ClickUp India,Gurgaon,Full Stack Developer,https://clickup.com/careers
+HR Team,careers@basecamp.com,,Basecamp India,Delhi,Full Stack Developer,https://basecamp.com/jobs
+HR Team,hr@linear.app,,Linear India,Gurgaon,Full Stack Developer,https://linear.app/careers
+HR Team,careers@shortcut.com,,Shortcut India,Gurgaon,Web Developer,https://shortcut.com/careers
+HR Team,hr@pagerduty.com,,PagerDuty India,Gurgaon,Full Stack Developer,https://www.pagerduty.com/careers
+HR Team,careers@datadog.com,,Datadog India,Gurgaon,Full Stack Developer,https://www.datadoghq.com/careers
+HR Team,hr@newrelic.com,,New Relic India,Gurgaon,Full Stack Developer,https://newrelic.com/about/careers
+HR Team,careers@splunk.com,,Splunk India,Gurgaon,Full Stack Developer,https://www.splunk.com/en_us/careers
+HR Team,hr@elastic.co,,Elastic India,Gurgaon,Full Stack Developer,https://www.elastic.co/about/careers
+HR Team,careers@grafana.com,,Grafana Labs India,Gurgaon,Full Stack Developer,https://grafana.com/about/careers
+HR Team,hr@influxdata.com,,InfluxData India,Gurgaon,Full Stack Developer,https://www.influxdata.com/careers
+HR Team,careers@timescale.com,,Timescale India,Gurgaon,Full Stack Developer,https://www.timescale.com/careers
+HR Team,hr@mongodb.com,,MongoDB India,Gurgaon,Full Stack Developer,https://www.mongodb.com/careers
+HR Team,careers@couchbase.com,,Couchbase India,Gurgaon,Full Stack Developer,https://www.couchbase.com/careers
+HR Team,hr@redis.com,,Redis India,Gurgaon,Full Stack Developer,https://redis.com/company/careers
+HR Team,careers@neo4j.com,,Neo4j India,Gurgaon,Full Stack Developer,https://neo4j.com/careers
+HR Team,hr@cockroachlabs.com,,CockroachDB India,Gurgaon,Full Stack Developer,https://www.cockroachlabs.com/careers
+HR Team,careers@planetscale.com,,PlanetScale India,Gurgaon,Full Stack Developer,https://planetscale.com/careers
+HR Team,hr@supabase.com,,Supabase India,Delhi,Full Stack Developer,https://supabase.com/careers
+HR Team,careers@firebase.google.com,,Firebase (Google),Gurgaon,Full Stack Developer,https://careers.google.com
+HR Team,hr@vercel.com,,Vercel India,Delhi,Full Stack Developer,https://vercel.com/careers
+HR Team,careers@netlify.com,,Netlify India,Delhi,Full Stack Developer,https://www.netlify.com/careers
+HR Team,hr@heroku.com,,Heroku (Salesforce),Gurgaon,Full Stack Developer,https://www.heroku.com/careers
+HR Team,careers@digitalocean.com,,DigitalOcean India,Gurgaon,Full Stack Developer,https://www.digitalocean.com/careers
+HR Team,hr@linode.com,,Akamai Linode India,Gurgaon,Full Stack Developer,https://www.linode.com/careers
+HR Team,careers@vultr.com,,Vultr India,Gurgaon,Full Stack Developer,https://www.vultr.com/company/careers
+HR Team,hr@cloudflare.com,,Cloudflare India,Gurgaon,Full Stack Developer,https://www.cloudflare.com/careers
+HR Team,careers@fastly.com,,Fastly India,Gurgaon,Full Stack Developer,https://www.fastly.com/about/careers
+HR Team,hr@aws.amazon.com,,Amazon Web Services India,Gurgaon,Full Stack Developer,https://www.amazon.jobs
+HR Team,careers@azure.microsoft.com,,Microsoft Azure India,Gurgaon,Full Stack Developer,https://careers.microsoft.com
+HR Team,hr@cloud.google.com,,Google Cloud India,Gurgaon,Full Stack Developer,https://careers.google.com
+HR Team,careers@ibm.com,,IBM Cloud India,Delhi,Full Stack Developer,https://www.ibm.com/employment
+HR Team,hr@alibabacloud.com,,Alibaba Cloud India,Delhi,Full Stack Developer,https://www.alibabacloud.com/careers
+HR Team,careers@huaweicloud.com,,Huawei Cloud India,Gurgaon,Full Stack Developer,https://career.huawei.com
+HR Team,hr@tencent.com,,Tencent India,Gurgaon,Full Stack Developer,https://careers.tencent.com
+HR Team,careers@bytedance.com,,ByteDance India,Gurgaon,Full Stack Developer,https://jobs.bytedance.com
+HR Team,hr@netease.com,,NetEase India,Delhi,Full Stack Developer,https://hr.163.com
+HR Team,careers@xiaomi.com,,Xiaomi India,Gurgaon,Full Stack Developer,https://www.mi.com/in/about/careers
+HR Team,hr@oppo.com,,OPPO India,Noida,Full Stack Developer,https://www.oppo.com/en/careers
+HR Team,careers@vivo.com,,vivo India,Delhi,Web Developer,https://careers.vivo.com
+HR Team,hr@realme.com,,Realme India,Noida,Web Developer,https://www.realme.com/in/about/careers
+HR Team,careers@oneplus.com,,OnePlus India,Gurgaon,Full Stack Developer,https://www.oneplus.com/in/about/careers
+HR Team,hr@motorola.com,,Motorola India,Gurgaon,Full Stack Developer,https://motorolasolutions.com/careers
+HR Team,careers@nokia.com,,Nokia India,Gurgaon,Full Stack Developer,https://www.nokia.com/careers

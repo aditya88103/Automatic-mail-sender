@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Mail Sender</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="background">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="grid"></div>
+    </div>
+
+    <main class="page-shell">
+        <section class="hero">
+            <div class="hero-copy">
+                <span class="eyebrow">Bulk Gmail Sender</span>
+                <h1>Upload <code>email.csv</code>, paste your Gmail app password, and send from one clean screen.</h1>
+                <p>
+                    No database, no saved credentials, no admin panel. The form submits directly to Gmail SMTP and
+                    streams live delivery logs into the terminal below.
+                </p>
+                <div class="hero-pills">
+                    <span>Live terminal logs</span>
+                    <span>CSV only: email.csv</span>
+                    <span>In-memory only</span>
+                </div>
+            </div>
+            <div class="hero-card floating">
+                <div class="status-dot"></div>
+                <strong>Expected CSV headers</strong>
+                <p><code>Email</code> is required. <code>HR_Name</code> / <code>Name</code> and <code>Company_Name</code> / <code>Company</code> are used for placeholders.</p>
+                <p>Use <code>{% raw %}{{name}}{% endraw %}</code>, <code>{% raw %}{{company}}{% endraw %}</code>, and <code>{% raw %}{{email}}{% endraw %}</code> inside your message.</p>
+            </div>
+        </section>
+
+        <section class="layout">
+            <form id="mailForm" class="panel form-panel">
+                <div class="panel-header">
+                    <h2>Send Mail</h2>
+                    <span class="panel-badge">Frontend + SMTP</span>
+                </div>
+
+                <label>
+                    <span>Upload CSV</span>
+                    <input id="csvFile" name="csvFile" type="file" accept=".csv" required>
+                    <small>Only upload a file named <code>email.csv</code>.</small>
+                </label>
+
+                <label>
+                    <span>Gmail Account</span>
+                    <input id="senderEmail" name="senderEmail" type="email" placeholder="yourname@gmail.com" required>
+                </label>
+
+                <label>
+                    <span>App Password</span>
+                    <input id="appPassword" name="appPassword" type="password" placeholder="16-character app password" required>
+                </label>
+
+                <label>
+                    <span>Subject</span>
+                    <input id="subject" name="subject" type="text" placeholder="Job Application / Introduction" required>
+                </label>
+
+                <label>
+                    <span>Message</span>
+                    <textarea id="message" name="message" rows="12" required>{% raw %}Hi {{name}},
+
+I wanted to reach out regarding opportunities at {{company}}.
+
+Please let me know if I can share my resume.
+
+Best regards,
+Your Name{% endraw %}</textarea>
+                </label>
+
+                <button id="sendButton" class="send-button" type="submit">
+                    <span>Start Sending</span>
+                </button>
+
+                <p id="formStatus" class="form-status"></p>
+            </form>
+
+            <aside class="stack">
+                <section class="panel steps-panel">
+                    <div class="panel-header">
+                        <h2>How To Get App Password</h2>
+                    </div>
+                    <ol class="steps-list">
+                        <li>Open Gmail, then click your profile photo and choose <strong>Manage your Google Account</strong>.</li>
+                        <li>Open the <strong>Security</strong> tab and make sure <strong>2-Step Verification</strong> is enabled.</li>
+                        <li>Use the account search bar or the Security page search and type <strong>App Passwords</strong>.</li>
+                        <li>Open <strong>App Passwords</strong>, choose a mail/app label, and generate the 16-character password.</li>
+                        <li>Paste that app password here with your Gmail address, upload <code>email.csv</code>, add your subject and message, then send.</li>
+                    </ol>
+                </section>
+
+                <section class="panel terminal-panel">
+                    <div class="panel-header">
+                        <h2>Delivery Terminal</h2>
+                        <span id="terminalState" class="panel-badge idle">Idle</span>
+                    </div>
+                    <div id="terminal" class="terminal" aria-live="polite">
+                        <div class="terminal-line muted">Waiting for a send job...</div>
+                    </div>
+                </section>
+            </aside>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
