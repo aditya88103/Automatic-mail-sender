@@ -8,7 +8,7 @@ from flask import Flask, Response, jsonify, render_template, request
 
 from mailer import build_preview, send_bulk_emails
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="public", static_url_path="")
 
 
 @dataclass
