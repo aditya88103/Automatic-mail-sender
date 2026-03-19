@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automatic Mail Sender</title>
+    <title>Viru Auto Mail Sender</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='viru-logo.png') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
@@ -19,8 +20,14 @@
     <main class="page-shell">
         <section class="hero">
             <div class="hero-copy">
-                <span class="eyebrow">Bulk Gmail Sender</span>
-                <h1>Preview, filter, attach, and send from one animated dashboard.</h1>
+                <div class="brand-lockup">
+                    <img src="{{ url_for('static', filename='viru-logo.png') }}" alt="Viru Auto Mail Sender logo" class="brand-logo">
+                    <div>
+                        <span class="eyebrow">Viru Auto Mail Sender</span>
+                        <strong class="brand-name">Smart Gmail campaign control</strong>
+                    </div>
+                </div>
+                <h1>Preview, filter, attach, and send from one branded dashboard.</h1>
                 <p>
                     The app validates your CSV, skips duplicates, supports resume attachment, limits batches in test
                     mode, and shows live counters while emails are being sent.
@@ -194,7 +201,10 @@ Your Name{% endraw %}</textarea>
         <div class="footer-shell">
             <section class="footer-grid">
                 <article class="footer-panel footer-intro">
-                    <span class="footer-kicker">Automatic Mail Sender</span>
+                    <div class="footer-brand">
+                        <img src="{{ url_for('static', filename='viru-logo.png') }}" alt="Viru Auto Mail Sender logo" class="footer-logo">
+                        <span class="footer-kicker">Viru Auto Mail Sender</span>
+                    </div>
                     <h2>Everything you need to send bulk Gmail emails from one page, without storing your data.</h2>
                     <p>
                         This frontend is designed for a simple workflow: upload <code>email.csv</code>, preview the

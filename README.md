@@ -1,6 +1,6 @@
-# Automatic Mail Sender
+# Viru Auto Mail Sender
 
-This project now includes a lightweight Flask frontend for sending bulk Gmail messages from a single page. Nothing is stored in a database; the CSV, Gmail address, app password, subject, and message are used in memory for the current send job only.
+This project now includes a lightweight Flask frontend for sending bulk Gmail messages from a single page. Viru Auto Mail Sender keeps the workflow in memory only, so the CSV, Gmail address, app password, subject, and message are used for the current send job without a database.
 
 ## Features
 - Upload only `email.csv`
