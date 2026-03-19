@@ -3,8 +3,8 @@ import csv
 import re
 from email.mime.text import MIMEText
 
-sender_email = "aditya8810328@gmail.com"
-app_password = "kvfe iywg prda pbzg"
+sender_email = "your email here"
+app_password = "your app password here"
 
 subject = "Data Analyst Internship Opportunity"
 
@@ -44,10 +44,7 @@ I'm available for a 3-6 month internship immediately . I'd love to contribute to
 Would you be open to a quick 10-minute call, or shall I send my resume for review?
 
 Best regards,
-Aditya Raj
-+91 8810328594 | aditya8810328@gmail.com
-LinkedIn: linkedin.com/in/aditya-raj-767822271
-GitHub: github.com/aditya88103
+Aditya Raj 
 """
 
         msg = MIMEText(body, _charset="utf-8")
